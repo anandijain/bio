@@ -1,0 +1,120 @@
+LOCUS       pUC19                   2686 bp ds-DNA     circular     03-SEP-2025
+DEFINITION  .
+KEYWORDS    "marker:AmpR" "ref:pmid\:6323249"
+COMMENT     pUC cloning vector. <small>[1] Construction of improved M13 vectors
+            using oligodeoxynucleotide-directed mutagenesis. Gene. 1983
+            Dec;26(1):101-6. Norrander J, Kempe T, Messing J
+            (pmid:6323249)</small>
+FEATURES             Location/Qualifiers
+     protein_bind    505..526
+                     /label="CAP binding site"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /note="bound_moiety: E. coli catabolite activator protein note: CAP binding activates transcription in the presence of cAMP."
+     promoter        541..546
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="note: promoter for the E. coli lac operon"
+     promoter        547..564
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="note: promoter for the E. coli lac operon"
+     promoter        565..571
+                     /label="lac promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="note: promoter for the E. coli lac operon"
+     protein_bind    579..595
+                     /label="lac operator"
+                     /ApEinfo_revcolor="#75c6a9"
+                     /ApEinfo_fwdcolor="#75c6a9"
+                     /note="bound_moiety: lac repressor encoded by lacI note: The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-β-D-thiogalactopyranoside (IPTG)."
+     primer_bind     603..619
+                     /label="M13 rev"
+                     /ApEinfo_revcolor="#a020f0"
+                     /ApEinfo_fwdcolor="#a020f0"
+                     /note="note: common sequencing primer, one of multiple similar variants"
+     CDS             615..938
+                     /label="lacZα"
+                     /ApEinfo_revcolor="#993366"
+                     /ApEinfo_fwdcolor="#993366"
+                     /note="codon_start: 1 gene: lacZ fragment product: LacZα fragment of β-galactosidase transl_table: 1 translation: MTMITPSLHACRSTLEDPRVPSSNSLAVVLQRRDWENPGVTQLNRLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCGISHRIWCTLSTICSDAA*"
+     misc_feature    632..688
+                     /label="MCS"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+                     /note="gene: note: pUC18/19 multiple cloning site"
+     primer_bind     complement(689..705)
+                     /label="M13 fwd"
+                     /ApEinfo_revcolor="#a020f0"
+                     /ApEinfo_fwdcolor="#a020f0"
+                     /note="note: common sequencing primer, one of multiple similar variants"
+     promoter        1179..1283
+                     /label="AmpR promoter"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="gene: bla"
+     CDS             1284..1352
+                     /label="AmpR"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="codon_start: 1 gene: bla note: confers resistance to ampicillin, carbenicillin, and related antibiotics product: β-lactamase transl_table: 1 translation: MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+     CDS             1353..2144
+                     /label="AmpR"
+                     /ApEinfo_revcolor="#b7e6d7"
+                     /ApEinfo_fwdcolor="#b7e6d7"
+                     /note="codon_start: 1 gene: bla note: confers resistance to ampicillin, carbenicillin, and related antibiotics product: β-lactamase transl_table: 1 translation: MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+     rep_origin      2315..217
+                     /label="ori"
+                     /ApEinfo_revcolor="#ffff00"
+                     /ApEinfo_fwdcolor="#ffff00"
+                     /note="direction: RIGHT note: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+ORIGIN
+        1 gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga gaaaggcgga
+       61 caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc ttccaggggg
+      121 aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg agcgtcgatt
+      181 tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg cggccttttt
+      241 acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt tatcccctga
+      301 ttctgtggat aaccgtatta ccgcctttga gtgagctgat accgctcgcc gcagccgaac
+      361 gaccgagcgc agcgagtcag tgagcgagga agcggaagag cgcccaatac gcaaaccgcc
+      421 tctccccgcg cgttggccga ttcattaatg cagctggcac gacaggtttc ccgactggaa
+      481 agcgggcagt gagcgcaacg caattaatgt gagttagctc actcattagg caccccaggc
+      541 tttacacttt atgcttccgg ctcgtatgtt gtgtggaatt gtgagcggat aacaatttca
+      601 cacaggaaac agctatgacc atgattacgc caagcttgca tgcctgcagg tcgactctag
+      661 aggatccccg ggtaccgagc tcgaattcac tggccgtcgt tttacaacgt cgtgactggg
+      721 aaaaccctgg cgttacccaa cttaatcgcc ttgcagcaca tccccctttc gccagctggc
+      781 gtaatagcga agaggcccgc accgatcgcc cttcccaaca gttgcgcagc ctgaatggcg
+      841 aatggcgcct gatgcggtat tttctcctta cgcatctgtg cggtatttca caccgcatat
+      901 ggtgcactct cagtacaatc tgctctgatg ccgcatagtt aagccagccc cgacacccgc
+      961 caacacccgc tgacgcgccc tgacgggctt gtctgctccc ggcatccgct tacagacaag
+     1021 ctgtgaccgt ctccgggagc tgcatgtgtc agaggttttc accgtcatca ccgaaacgcg
+     1081 cgagacgaaa gggcctcgtg atacgcctat ttttataggt taatgtcatg ataataatgg
+     1141 tttcttagac gtcaggtggc acttttcggg gaaatgtgcg cggaacccct atttgtttat
+     1201 ttttctaaat acattcaaat atgtatccgc tcatgagaca ataaccctga taaatgcttc
+     1261 aataatattg aaaaaggaag agtatgagta ttcaacattt ccgtgtcgcc cttattccct
+     1321 tttttgcggc attttgcctt cctgtttttg ctcacccaga aacgctggtg aaagtaaaag
+     1381 atgctgaaga tcagttgggt gcacgagtgg gttacatcga actggatctc aacagcggta
+     1441 agatccttga gagttttcgc cccgaagaac gttttccaat gatgagcact tttaaagttc
+     1501 tgctatgtgg cgcggtatta tcccgtattg acgccgggca agagcaactc ggtcgccgca
+     1561 tacactattc tcagaatgac ttggttgagt actcaccagt cacagaaaag catcttacgg
+     1621 atggcatgac agtaagagaa ttatgcagtg ctgccataac catgagtgat aacactgcgg
+     1681 ccaacttact tctgacaacg atcggaggac cgaaggagct aaccgctttt ttgcacaaca
+     1741 tgggggatca tgtaactcgc cttgatcgtt gggaaccgga gctgaatgaa gccataccaa
+     1801 acgacgagcg tgacaccacg atgcctgtag caatggcaac aacgttgcgc aaactattaa
+     1861 ctggcgaact acttactcta gcttcccggc aacaattaat agactggatg gaggcggata
+     1921 aagttgcagg accacttctg cgctcggccc ttccggctgg ctggtttatt gctgataaat
+     1981 ctggagccgg tgagcgtggg tctcgcggta tcattgcagc actggggcca gatggtaagc
+     2041 cctcccgtat cgtagttatc tacacgacgg ggagtcaggc aactatggat gaacgaaata
+     2101 gacagatcgc tgagataggt gcctcactga ttaagcattg gtaactgtca gaccaagttt
+     2161 actcatatat actttagatt gatttaaaac ttcattttta atttaaaagg atctaggtga
+     2221 agatcctttt tgataatctc atgaccaaaa tcccttaacg tgagttttcg ttccactgag
+     2281 cgtcagaccc cgtagaaaag atcaaaggat cttcttgaga tccttttttt ctgcgcgtaa
+     2341 tctgctgctt gcaaacaaaa aaaccaccgc taccagcggt ggtttgtttg ccggatcaag
+     2401 agctaccaac tctttttccg aaggtaactg gcttcagcag agcgcagata ccaaatactg
+     2461 ttcttctagt gtagccgtag ttaggccacc acttcaagaa ctctgtagca ccgcctacat
+     2521 acctcgctct gctaatcctg ttaccagtgg ctgctgccag tggcgataag tcgtgtctta
+     2581 ccgggttgga ctcaagacga tagttaccgg ataaggcgca gcggtcgggc tgaacggggg
+     2641 gttcgtgcac acagcccagc ttggagcgaa cgacctacac cgaact
+//
