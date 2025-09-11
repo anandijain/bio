@@ -10,3 +10,4 @@ wheels/
 .venv
 
 gopro_concat/target/
+scripts/
