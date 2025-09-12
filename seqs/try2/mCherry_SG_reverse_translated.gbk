@@ -1,0 +1,30 @@
+LOCUS       mCherry_SG_rever         711 bp    DNA     linear   SYN 12-SEP-2025
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 711)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 12, 2025 from SnapGene 8.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..711
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+ORIGIN
+        1 atggtgagca aaggcgaaga agataacatg gcgattatta aagaatttat gcgctttaaa
+       61 gtgcatatgg aaggcagcgt gaacggccat gaatttgaaa ttgaaggcga aggcgaaggc
+      121 cgcccgtatg aaggcaccca gaccgcgaaa ctgaaagtga ccaaaggcgg cccgctgccg
+      181 tttgcgtggg atattctgag cccgcagttt atgtatggca gcaaagcgta tgtgaaacat
+      241 ccggcggata ttccggatta tctgaaactg agctttccgg aaggctttaa atgggaacgc
+      301 gtgatgaact ttgaagatgg cggcgtggtg accgtgaccc aggatagcag cctgcaggat
+      361 ggcgaattta tttataaagt gaaactgcgc ggcaccaact ttccgagcga tggcccggtg
+      421 atgcagaaaa aaaccatggg ctgggaagcg agcagcgaac gcatgtatcc ggaagatggc
+      481 gcgctgaaag gcgaaattaa acagcgcctg aaactgaaag atggcggcca ttatgatgcg
+      541 gaagtgaaaa ccacctataa agcgaaaaaa ccggtgcagc tgccgggcgc gtataacgtg
+      601 aacattaaac tggatattac cagccataac gaagattata ccattgtgga acagtatgaa
+      661 cgcgcggaag gccgccatag caccggcggc atggatgaac tgtataaata a
+//

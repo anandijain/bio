@@ -1,5 +1,6 @@
 from num2words import num2words
 from Bio.Seq import Seq
+from Bio import SeqIO
 
 G_PER_MOL_BP = 650
 AVO = 6.022e23
@@ -65,3 +66,6 @@ if __name__ == "__main__":
     vector_insert_ratio = 2
     puc_ng_for_hifi*vector_insert_ratio
     # 1ng -> 500ng
+
+    sg = SeqIO.read("seqs/try2/mCherry_SG_reverse_translated.gbk", "genbank")
+    tw = SeqIO.read("seqs/try2/mCherry_Twist_RevTrans.gb", "genbank")

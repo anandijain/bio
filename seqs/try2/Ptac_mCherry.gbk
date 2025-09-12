@@ -1,0 +1,55 @@
+LOCUS       Ptac_mCherry             786 bp    DNA     linear   SYN 12-SEP-2025
+DEFINITION  75 bases
+            711 bases.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 786)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 12, 2025 from SnapGene 8.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          76..786
+                     /note="color: #ffffff"
+                     /organism="mCherry"
+     promoter        join(1..6,7..22,23..29)
+                     /label=tac promoter
+                     /note="strong E. coli promoter; hybrid between the trp and 
+                     lac UV5 promoters"
+                     /note="This forward directional feature has 3 segments:
+                        1:  1 ..  6 / #ffffff / -35
+                        2:  7 .. 22 / #ffffff
+                        3: 23 .. 29 / #ffffff / -10"
+     protein_bind    37..53
+                     /label=lac operator
+                     /bound_moiety="lac repressor encoded by lacI"
+                     /note="The lac repressor binds to the lac operator to 
+                     inhibit transcription in E. coli. This inhibition can be 
+                     relieved by adding lactose or 
+                     isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                     /note="color: #31849b"
+     gene            76..786
+                     /label=mCherry
+                     /note="color: #ff0000; direction: RIGHT"
+ORIGIN
+        1 ttgacaatta atcatcggct cgtataatgt gtggaattgt gagcggataa caatttcaca
+       61 caggaaacag tattcatggt atctaaaggc gaagaagata atatggctat tatcaaagaa
+      121 tttatgcgtt tcaaggtcca tatggaaggg tcagtgaacg ggcatgaatt tgaaattgaa
+      181 ggagaaggag aaggccgccc ctatgaagga actcagaccg ccaaattaaa ggtaacaaag
+      241 ggcggtccgc ttccgtttgc ctgggatatc ctctctccgc aatttatgta cggctccaag
+      301 gcctatgtca aacacccggc agatattccc gattacttga aactttcctt tccggaagga
+      361 tttaaatggg agcgcgtgat gaattttgaa gatggggggg tcgtcacagt tactcaagat
+      421 tcaagccttc aggatgggga gtttatctat aaagtgaaac tgcggggtac aaattttcct
+      481 tcggatggtc cagtaatgca aaagaaaacc atggggtggg aggcatcatc ggaacggatg
+      541 tacccggaag atggcgcgct taaaggggaa attaaacagc gcctgaaact gaaagatggt
+      601 ggccattatg acgccgaggt taaaacgacg tataaggcaa aaaaacctgt tcagcttccg
+      661 ggtgcatata acgttaatat taagttggac attacatcac ataacgagga ttacacgatt
+      721 gtggaacagt atgaacgggc ggaaggtcgt cattcaacag gaggtatgga cgagctgtat
+      781 aaatga
+//

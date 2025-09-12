@@ -18,6 +18,12 @@ the plan (try 2):
 11) use concentration as a seed for planning the assembly volumes  
 
 ## fragment preparation 
+1) get the Ptac promoter from [addgene](https://www.addgene.org/177907/sequences/)
+2) grab the [FPBase Mcherry amino acid seq](https://www.fpbase.org/protein/mcherry/)
+3) go to twist gene fragments and past in the AA, then download the genbank of this for the reverse translation
+4) create a new sequence in snapgene/benchling with the promoter and mcherry
+5) use snapgene/nebuilder/benchling to design the overhangs 
+6) add the overhangs to the original Ptac_mCherry and save as the final gene fragment sequence
 
 
 todo:
@@ -68,6 +74,8 @@ why are these totally different
 [ptac from igem](https://registry.igem.org/parts/bba-k5515009)
 
 
+https://www.idtdna.com/calc/analyzer
+
 
 
 ## primers and overhangs
@@ -97,3 +105,13 @@ then my gene Ge should have
 
 right as the A and the B* in the Ge should get chewed back by exonuclease
 and the A* and B in the Lins gets chewed back so that the exposed A in Lins binds with the exposed A* in Ge, and same for the exposed B in Ge and the exposed B* in Lin 
+
+
+another time where chat is giving me confusion over the correct overhang sequences 
+
+are you sure? if we have on our linearized plasmid 5' RC(InvRev) 3' 3' InvRev 5' and then on the fragment: 5' RC(InvRev) ... 3' 3' InvRev ... 5' then exonuc will chew back the invrev on the lin plas and the rc(invrev) on the frag making it so that the rc(invrev) on linplas can connect with the bottom strand invrev on the frag then for the case of the fwd primer we will have the left side of the fragment is 5' ... mcherry InvFwd 3' 3' rc(mcherry) rc(invfwd) 5' then the lin plasmids other side should be 5' invFwd 3' 3' rc(invFwd) 5' so then the rc(invfwd) gets chewed on bottom strand of fragment and invFwd gets chewed on top strand lin plas right? so then they have exposed complementary regions? whereas if we went with rc(invfwd) on the top strand of the fragment they wouldnt be complementary
+
+## random keys
+
+needle job id for twist vs snapgene, snapgene is first 
+emboss_needle-I20250912-215322-0286-81975087-p1m 

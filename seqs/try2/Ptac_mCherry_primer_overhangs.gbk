@@ -1,0 +1,82 @@
+LOCUS       Ptac_mCherry_pri         826 bp    DNA     linear   SYN 12-SEP-2025
+DEFINITION  19 bases
+            786 bases
+            21 bases.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 826)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 12, 2025 from SnapGene 8.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..826
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          95..805
+                     /note="color: #ffffff"
+                     /organism="mCherry"
+     primer_bind     1..50
+                     /label=Fragment.FOR
+                     /note="color: black; sequence: 
+                     cgacaggtttcccgactggattgacaattaatcatcggctcgtataatgtg; added:
+                     2025-09-12"
+     primer_bind     complement(1..19)
+                     /label=invRev
+                     /note="color: black; sequence: TCCAGTCGGGAAACCTGTC; added: 
+                     2025-09-12"
+     primer_bind     complement(1..19)
+                     /label=Vector.REV
+                     /note="color: black; sequence: tccagtcgggaaacctgtcg; added:
+                     2025-09-12"
+     promoter        join(20..25,26..41,42..48)
+                     /label=tac promoter
+                     /note="strong E. coli promoter; hybrid between the trp and 
+                     lac UV5 promoters"
+                     /note="This forward directional feature has 3 segments:
+                        1: 20 .. 25 / #ffffff / -35
+                        2: 26 .. 41 / #ffffff
+                        3: 42 .. 48 / #ffffff / -10"
+     protein_bind    56..72
+                     /label=lac operator
+                     /bound_moiety="lac repressor encoded by lacI"
+                     /note="The lac repressor binds to the lac operator to 
+                     inhibit transcription in E. coli. This inhibition can be 
+                     relieved by adding lactose or 
+                     isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                     /note="color: #31849b"
+     gene            95..805
+                     /label=mCherry
+                     /note="color: #ff0000; direction: RIGHT"
+     primer_bind     complement(778..825)
+                     /label=Fragment.REV
+                     /note="color: black; sequence: 
+                     gtgatgacggtgaaaacctcTCATTTATACAGCTCGTCCATACCTCCT; added: 
+                     2025-09-12"
+     primer_bind     806..826
+                     /label=invFwd
+                     /note="color: black; sequence: GAGGTTTTCACCGTCATCACC; 
+                     added: 2025-09-12"
+     primer_bind     806..826
+                     /label=Vector.FOR
+                     /note="color: black; sequence: gaggttttcaccgtcatcaccga; 
+                     added: 2025-09-12"
+ORIGIN
+        1 gacaggtttc ccgactggat tgacaattaa tcatcggctc gtataatgtg tggaattgtg
+       61 agcggataac aatttcacac aggaaacagt attcatggta tctaaaggcg aagaagataa
+      121 tatggctatt atcaaagaat ttatgcgttt caaggtccat atggaagggt cagtgaacgg
+      181 gcatgaattt gaaattgaag gagaaggaga aggccgcccc tatgaaggaa ctcagaccgc
+      241 caaattaaag gtaacaaagg gcggtccgct tccgtttgcc tgggatatcc tctctccgca
+      301 atttatgtac ggctccaagg cctatgtcaa acacccggca gatattcccg attacttgaa
+      361 actttccttt ccggaaggat ttaaatggga gcgcgtgatg aattttgaag atgggggggt
+      421 cgtcacagtt actcaagatt caagccttca ggatggggag tttatctata aagtgaaact
+      481 gcggggtaca aattttcctt cggatggtcc agtaatgcaa aagaaaacca tggggtggga
+      541 ggcatcatcg gaacggatgt acccggaaga tggcgcgctt aaaggggaaa ttaaacagcg
+      601 cctgaaactg aaagatggtg gccattatga cgccgaggtt aaaacgacgt ataaggcaaa
+      661 aaaacctgtt cagcttccgg gtgcatataa cgttaatatt aagttggaca ttacatcaca
+      721 taacgaggat tacacgattg tggaacagta tgaacgggcg gaaggtcgtc attcaacagg
+      781 aggtatggac gagctgtata aatgagaggt tttcaccgtc atcacc
+//
