@@ -1,0 +1,126 @@
+LOCUS       pUC19_mCherry_no        2825 bp    DNA     circular SYN 11-SEP-2025
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  recombinant plasmid
+REFERENCE   1  (bases 1 to 2825)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Sep 11, 2025 from SnapGene 8.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2825
+                     /mol_type="other DNA"
+                     /organism="recombinant plasmid"
+     primer_bind     440..504
+                     /label=Fragment.FOR
+                     /note="color: black; sequence: 
+                     attcattaatgcagctggcacgacaggtttcccgactggaATGGTGTCTAAAGGCGAAG
+                     AAGACA; added: 2025-09-11"
+     primer_bind     complement(460..479)
+                     /label=Vector.REV
+                     /note="color: black; sequence: tccagtcgggaaacctgtcg; added:
+                     2025-09-11"
+     primer_bind     complement(461..479)
+                     /label=invPrimer1
+                     /note="color: black; sequence: TCCAGTCGGGAAACCTGTC; added: 
+                     2025-09-11"
+     gene            480..1190
+                     /label=mCherry
+                     /note="color: #a6acb3; direction: RIGHT"
+     primer_bind     complement(1163..1230)
+                     /label=Fragment.REV
+                     /note="color: black; sequence: 
+                     ctttcgtctcgcgcgtttcggtgatgacggtgaaaacctcTCACTTATACAGTTCATCC
+                     ATCCCACCC; added: 2025-09-11"
+     primer_bind     1191..1213
+                     /label=Vector.FOR
+                     /note="color: black; sequence: gaggttttcaccgtcatcaccga; 
+                     added: 2025-09-11"
+     primer_bind     1191..1211
+                     /label=invPrimer2
+                     /note="color: black; sequence: GAGGTTTTCACCGTCATCACC; 
+                     added: 2025-09-11"
+     promoter        1318..1422
+                     /label=AmpR promoter
+                     /note="gene: bla"
+                     /note="color: #b7e6d7"
+     CDS             1423..1491
+                     /label=AmpR
+                     /note="codon_start: 1 gene: bla note: confers resistance to
+                     ampicillin, carbenicillin, and related antibiotics product:
+                     beta-lactamase transl_table: 1 translation: 
+                     MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESF
+                     RPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTV
+                     RELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDER
+                     DTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGA
+                     GERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+                     /note="color: #b7e6d7; direction: RIGHT"
+     CDS             1492..2283
+                     /label=AmpR
+                     /note="codon_start: 1 gene: bla note: confers resistance to
+                     ampicillin, carbenicillin, and related antibiotics product:
+                     beta-lactamase transl_table: 1 translation: 
+                     MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESF
+                     RPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTV
+                     RELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDER
+                     DTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGA
+                     GERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+                     /note="color: #b7e6d7; direction: RIGHT"
+     rep_origin      join(2454..2825,1..217)
+                     /label=ori
+                     /note="direction: RIGHT note: high-copy-number 
+                     ColE1/pMB1/pBR322/pUC origin of replication"
+                     /note="color: #ffff00"
+ORIGIN
+        1 gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga gaaaggcgga
+       61 caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc ttccaggggg
+      121 aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg agcgtcgatt
+      181 tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg cggccttttt
+      241 acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt tatcccctga
+      301 ttctgtggat aaccgtatta ccgcctttga gtgagctgat accgctcgcc gcagccgaac
+      361 gaccgagcgc agcgagtcag tgagcgagga agcggaagag cgcccaatac gcaaaccgcc
+      421 tctccccgcg cgttggccga ttcattaatg cagctggcac gacaggtttc ccgactggaa
+      481 tggtgtctaa aggcgaagaa gacaatatgg caatcatcaa agagtttatg cgcttcaaag
+      541 tacacatgga aggctctgtg aacgggcacg agttcgagat agaaggtgaa ggcgagggcc
+      601 gtccctatga aggcacacaa acagccaagc ttaaagtgac aaaaggcgga cctttaccat
+      661 tcgcgtggga tatactgagt ccgcaattta tgtatggatc gaaagcctat gtaaaacatc
+      721 cggccgatat ccctgactat ctgaagttgt cattccctga gggcttcaaa tgggagcgcg
+      781 taatgaactt tgaggatgga ggggtggtga ccgtaaccca agattcatct cttcaagacg
+      841 gcgaattcat ctataaagta aagctccgcg gcactaattt tccatccgat ggtcctgtca
+      901 tgcagaagaa aacgatgggc tgggaagcaa gttctgaacg aatgtatcct gaagatggcg
+      961 cgctgaaggg cgagattaaa cagcgcctga agctcaaaga cgggggtcat tatgatgcag
+     1021 aagtgaagac cacatataag gcaaaaaaac ctgtgcagct gcccggggct tataatgtaa
+     1081 acattaaact tgacattaca agccataacg aagactatac catagttgag cagtacgaga
+     1141 gagcggaggg acggcatagt acgggtggga tggatgaact gtataagtga gaggttttca
+     1201 ccgtcatcac cgaaacgcgc gagacgaaag ggcctcgtga tacgcctatt tttataggtt
+     1261 aatgtcatga taataatggt ttcttagacg tcaggtggca cttttcgggg aaatgtgcgc
+     1321 ggaaccccta tttgtttatt tttctaaata cattcaaata tgtatccgct catgagacaa
+     1381 taaccctgat aaatgcttca ataatattga aaaaggaaga gtatgagtat tcaacatttc
+     1441 cgtgtcgccc ttattccctt ttttgcggca ttttgccttc ctgtttttgc tcacccagaa
+     1501 acgctggtga aagtaaaaga tgctgaagat cagttgggtg cacgagtggg ttacatcgaa
+     1561 ctggatctca acagcggtaa gatccttgag agttttcgcc ccgaagaacg ttttccaatg
+     1621 atgagcactt ttaaagttct gctatgtggc gcggtattat cccgtattga cgccgggcaa
+     1681 gagcaactcg gtcgccgcat acactattct cagaatgact tggttgagta ctcaccagtc
+     1741 acagaaaagc atcttacgga tggcatgaca gtaagagaat tatgcagtgc tgccataacc
+     1801 atgagtgata acactgcggc caacttactt ctgacaacga tcggaggacc gaaggagcta
+     1861 accgcttttt tgcacaacat gggggatcat gtaactcgcc ttgatcgttg ggaaccggag
+     1921 ctgaatgaag ccataccaaa cgacgagcgt gacaccacga tgcctgtagc aatggcaaca
+     1981 acgttgcgca aactattaac tggcgaacta cttactctag cttcccggca acaattaata
+     2041 gactggatgg aggcggataa agttgcagga ccacttctgc gctcggccct tccggctggc
+     2101 tggtttattg ctgataaatc tggagccggt gagcgtgggt ctcgcggtat cattgcagca
+     2161 ctggggccag atggtaagcc ctcccgtatc gtagttatct acacgacggg gagtcaggca
+     2221 actatggatg aacgaaatag acagatcgct gagataggtg cctcactgat taagcattgg
+     2281 taactgtcag accaagttta ctcatatata ctttagattg atttaaaact tcatttttaa
+     2341 tttaaaagga tctaggtgaa gatccttttt gataatctca tgaccaaaat cccttaacgt
+     2401 gagttttcgt tccactgagc gtcagacccc gtagaaaaga tcaaaggatc ttcttgagat
+     2461 cctttttttc tgcgcgtaat ctgctgcttg caaacaaaaa aaccaccgct accagcggtg
+     2521 gtttgtttgc cggatcaaga gctaccaact ctttttccga aggtaactgg cttcagcaga
+     2581 gcgcagatac caaatactgt tcttctagtg tagccgtagt taggccacca cttcaagaac
+     2641 tctgtagcac cgcctacata cctcgctctg ctaatcctgt taccagtggc tgctgccagt
+     2701 ggcgataagt cgtgtcttac cgggttggac tcaagacgat agttaccgga taaggcgcag
+     2761 cggtcgggct gaacgggggg ttcgtgcaca cagcccagct tggagcgaac gacctacacc
+     2821 gaact
+//
